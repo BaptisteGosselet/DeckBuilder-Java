@@ -9,7 +9,7 @@
 Le deck-building est un jeu de société, où les joueurs commencent avec les mêmes cartes puis construisent leur paquet au cours de la partie pour améliorer leurs jeux.</br>
 Pour plus de détails : https://fr.wikipedia.org/wiki/Jeu_de_deck-building
 
-</br> ![image](https://www.tabletopsauce.com/s/dominion-intrigue_1.JPG)
+</br> ![image](./img/Illustration.jpeg)
 
 ## Lancer le projet
 
