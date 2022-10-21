@@ -48,7 +48,7 @@ La CardFactory contient deux méthodes, *getInitialDeck()* qui renvoit les carte
 
 ### Controller et Joueur
 
-Le jeu est géré par la classe **GameController** qui organise les tours et la pioche. Elle prends en argument une CardFactory pour distribuer les cartes entre les deux joueurs et la pioche. La class possède aussi un attribut NUMBER_OF_CARDS_DURING_TURN qui permet de configurer le nombre de cartes tirées par les joueurs chaque tour (actuellement 5).
+Le jeu est géré par la classe **GameController** qui organise les tours et la pioche. Elle prends en argument une CardFactory pour distribuer les cartes entre les deux joueurs et la pioche. La classe possède aussi un attribut NUMBER_OF_CARDS_DURING_TURN qui permet de configurer le nombre de cartes tirées par les joueurs chaque tour (actuellement 5).
 
 L'exception **NotEnoughCardsException** est levée si le nombre de cartes initiales fournies par la CardFactory est inférieur au nombre de cartes jouées par tour.
 
@@ -76,8 +76,8 @@ L'**Effect** est un bonus qui s'active lorsqu'un joueur tire au moins deux carte
 - un **DamageEffect** : une attaque supplémentaire
 - un **HealEffect** : des points de vie récupérés en plus
 - un **GainCardEffect** : qui fait gagner une carte, soit dans la pioche, ou alors une carte spécifique si elle est donnée en argument
-- un **ThrowCardEffect** :  qui permet de jeter une carte définitivement, ce qui est pratique en fin de partie lorsque les premières cartes deviennent trop faible
-- et un **NullEffect** : pour les cartes qui ne possèderait pas d'effet particulier.
+- un **ThrowCardEffect** :  qui permet de jeter une carte définitivement, ce qui est pratique en fin de partie lorsque les premières cartes deviennent trop faibles
+- et un **NullEffect** : pour les cartes qui ne possèderaient pas d'effet particulier.
 
 </br> ![image](./img/umlFighterAttribut.png)
 
